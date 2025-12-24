@@ -6,7 +6,6 @@ public class Arithematic {
 		int a=20;
 		int b=10;
 		int c;
-		//pushed to github
 		c=a+b;
 		System.out.println("Sum: "+c);
 		c=a-b;
