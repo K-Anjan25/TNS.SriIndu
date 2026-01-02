@@ -11,8 +11,9 @@ public class WrapperDemo {
 
         // Display wrapped values
         w.display();
-
-        int intValue = w.getIntValue();
+		
+        // Get primitive values
+		int intValue = w.getIntValue();
         float floatValue = w.getFloatValue();
 
         System.out.println("\nUnwrapped primitive values:");
