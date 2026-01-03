@@ -11,9 +11,13 @@ public class WrapperDemo {
 
         // Display wrapped values
         w.display();
+<<<<<<< HEAD
         
+=======
+		
+>>>>>>> branch 'master' of https://github.com/K-Anjan25/TNS.SriIndu.git
         // Get primitive values
-        int intValue = w.getIntValue();
+		int intValue = w.getIntValue();
         float floatValue = w.getFloatValue();
 
         System.out.println("\nUnwrapped primitive values:");
