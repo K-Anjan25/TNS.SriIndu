@@ -9,9 +9,9 @@ public class StringReverse{
     for(String word : words){
       StringBuilder sb = new StringBuilder(word);
       sb.reverse();
-      reversedString += sb.toStirng() + " ";
+      reversedString += sb.toString() + " ";
     }
-    System.out.println("Reversed: "+reversedString.trim())
+    System.out.println("Reversed: "+reversedString.trim());
   }
 }
   
