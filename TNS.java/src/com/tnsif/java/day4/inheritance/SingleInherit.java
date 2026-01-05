@@ -1,6 +1,5 @@
 package com.tnsif.java.day4.inheritance;
 
-//Single Inheritance
 class Animal {
  void eat() {
      System.out.println("Animal is eating.");
