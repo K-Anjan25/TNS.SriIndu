@@ -1,4 +1,4 @@
-package com.tnsif.java.day4.tasks;
+package com.tnsif.java.tasks.task1;
 import java.util.Scanner;
 
 public class PalindromeNumber {

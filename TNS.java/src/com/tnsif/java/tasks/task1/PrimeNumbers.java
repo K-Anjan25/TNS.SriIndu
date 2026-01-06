@@ -1,4 +1,4 @@
-package com.tnsif.java.day4.tasks;
+package com.tnsif.java.tasks.task1;
 
 public class PrimeNumbers {
 	public static void main(String[] args) {

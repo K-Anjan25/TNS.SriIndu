@@ -1,4 +1,4 @@
-package com.tnsif.java.day5.tasks;
+package com.tnsif.java.tasks.task2;
 
 import java.util.Scanner;
 

@@ -1,4 +1,4 @@
-package com.tnsif.java.day5.tasks;
+package com.tnsif.java.tasks.task2;
 
 public class TypeConversionMain {
 	public static void main(String[] args) {

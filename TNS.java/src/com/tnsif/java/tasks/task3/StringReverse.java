@@ -1,4 +1,4 @@
-package com.tnsif.java.day8.tasks;
+package com.tnsif.java.tasks.task3;
 
 public class StringReverse{
   public static void main(String [] args){
