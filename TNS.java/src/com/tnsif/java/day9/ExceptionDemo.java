@@ -1,4 +1,6 @@
-public class Exception{
+Package com.tnsif.java.day9;
+
+public class ExceptionDemo{
 	public static void main(String [] args){
 		try{
 			int a,b;
