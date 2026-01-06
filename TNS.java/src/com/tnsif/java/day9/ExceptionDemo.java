@@ -1,4 +1,4 @@
-Package com.tnsif.java.day9;
+package com.tnsif.java.day9;
 
 public class ExceptionDemo{
 	public static void main(String [] args){
