@@ -15,6 +15,7 @@ class sample{
 }
 
 
+
 public class ThrowsDemo {
 
 	public static void main(String[] args) throws Exception {
