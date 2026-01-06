@@ -8,7 +8,7 @@ public class ThrowExceptionDemo{
 			System.out.println("Eligible for voting");
 		}
 		else{
-			throw new ArithemeticException("The age is < 18 so not Eligible for voting");
+			throw new ArithmeticException("The age is < 18 so not Eligible for voting");
 		}
 	}
 }
