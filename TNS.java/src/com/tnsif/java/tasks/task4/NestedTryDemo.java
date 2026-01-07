@@ -1,4 +1,4 @@
-package com.tnsif.java.tasks.task4
+package com.tnsif.java.tasks.task4;
 
 public class NestedTryDemo {
     public static void main(String[] args) {
