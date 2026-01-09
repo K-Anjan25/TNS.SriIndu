@@ -20,7 +20,7 @@ public class ThreadDemoClass{
 		notify();
 	}
 
-	synchronized int receiver(int i)
+	synchronized int receiver()
 	{
 		if(!flag){
 			try{
