@@ -7,14 +7,15 @@ public class ThreadDemoClass{
 
 	synchronized void deliver(int i)
 	{
-		if(flag){
+		// wait while there's already an unconsumed message
+		while(flag){
 			try{
 				wait();
 			}catch(Exception e){
 				System.err.println(e);
 			}
 		}
-		this.i=1;
+		this.i = i;           // <-- fixed: store the passed-in value
 		flag = true;
 		System.out.println("The msg is delivered "+i);
 		notify();
@@ -22,7 +23,8 @@ public class ThreadDemoClass{
 
 	synchronized int receiver()
 	{
-		if(!flag){
+		// wait while there's no message to consume
+		while(!flag){
 			try{
 				wait();
 			}catch(Exception e){
@@ -35,5 +37,3 @@ public class ThreadDemoClass{
 		return i;
 	}
 }
-		
-		
