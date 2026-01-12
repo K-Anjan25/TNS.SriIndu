@@ -2,7 +2,7 @@ package com.tnsif.java.day12;
 
 import java.util.ArrayList;
 
-public class DemoStd {
+public class StudCollGenericsDemo {
 
 	public static void main(String[] args) {
 		ArrayList<Student> ob = new ArrayList<Student>();
