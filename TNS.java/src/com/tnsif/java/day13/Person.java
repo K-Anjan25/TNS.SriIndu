@@ -2,14 +2,14 @@ package com.tnsif.java.day13;
 
 import java.util.Comparator;
 
-public class person  {
+public class Person  {
 	String name;
 	String city;
 
 
 	@Override
 	public String toString() {
-		return "person [name=" + name + ", city=" + city + "]";
+		return "Person [name=" + name + ", city=" + city + "]";
 	}
 
 	public String getName() {
@@ -28,25 +28,25 @@ public class person  {
 		this.city = city;
 	}
 
-	public person(String name, String city) {
+	public Person(String name, String city) {
 		super();
 		this.name = name;
 		this.city = city;
 	}
 }
-class sortNyName implements Comparator<person>{
+class sortNyName implements Comparator<Person>{
 
 	@Override
-	public int compare(person o1, person o2) {
+	public int compare(Person o1, Person o2) {
 
 		return o1.getName().compareTo(o2.getName());
 	}
 
 }
-class sortNyCity implements Comparator<person>{
+class sortNyCity implements Comparator<Person>{
 
 	@Override
-	public int compare(person o1, person o2) {
+	public int compare(Person o1, Person o2) {
 
 		return o1.getCity().compareTo(o2.getCity());
 	}
