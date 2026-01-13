@@ -1,6 +1,6 @@
 package com.tnsif.java.day12;
 
-public class Student {
+public class Student implements Comparable<Student> {
 	int sid;
 	String sName;
 	double marks;
@@ -17,6 +17,10 @@ public class Student {
 		
 	}
 
+	@Override
+	public int compareTo(Student o) {
+		return this.sName.compareTo(o.sName);
+	}
 	
 	
 
