@@ -1,4 +1,4 @@
-package com.tnsif.java.CollectonConcepts.MapCollections;
+package com.tnsif.java.CollectionConcepts.MapCollections;
 
 import java.util.HashMap;
 
