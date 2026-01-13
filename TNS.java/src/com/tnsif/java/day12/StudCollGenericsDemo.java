@@ -10,7 +10,11 @@ public class StudCollGenericsDemo {
 		ob.add(st);
 		Student st1 = new Student(102, "ganesh", 99.0);
 		ob.add(st1);
-		System.out.print(ob+"n/");
+		//System.out.print(ob+"n/");
+		System.out.println("before sorting");
+		System.out.println(ob);
+		System.out.println("after sorting");
+		System.out.println(ob);
 		
 		
 	}
