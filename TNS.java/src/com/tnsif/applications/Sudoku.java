@@ -2,10 +2,14 @@ package com.tnsif.applications;
 
 public class Sudoku {
     public static void solve(int[][] board) {
-        solve(board, 0, 0);
+        if (solveBoard(board, 0, 0)) {
+            printBoard(board);
+        } else {
+            System.out.println("No solution exists!");
+        }
     }
 
-    private static boolean solve(int[][] board, int row, int col) {
+    private static boolean solveBoard(int[][] board, int row, int col) {
         if (col == 9) {
             col = 0;
             row++;
@@ -15,13 +19,13 @@ public class Sudoku {
         }
 
         if (board[row][col] != 0) {
-            return solve(board, row, col + 1);
+            return solveBoard(board, row, col + 1);
         }
 
         for (int num = 1; num <= 9; num++) {
             if (isValid(board, row, col, num)) {
                 board[row][col] = num;
-                if (solve(board, row, col + 1)) {
+                if (solveBoard(board, row, col + 1)) {
                     return true;
                 }
                 board[row][col] = 0;
@@ -82,13 +86,6 @@ public class Sudoku {
         System.out.println("Before solving:");
         printBoard(board);
 
-        if (solve(board)) {
-            System.out.println("After solving:");
-            printBoard(board);
-        } else {
-            System.out.println("No solution exists!");
-        }
+        solve(board);
     }
 }
-
-
