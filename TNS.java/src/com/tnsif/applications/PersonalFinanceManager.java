@@ -1,4 +1,4 @@
-package com.tnsif.applications
+package com.tnsif.applications;
 
 import java.util.HashMap;
 import java.util.Map;
