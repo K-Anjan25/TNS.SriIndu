@@ -1,7 +1,7 @@
 package com.tnsif.java.day15;
 
 
-public class Logger {
+class Logger {
     @SuppressWarnings("unused")
     public void log(String message) {
         int unusedVariable = 10;
