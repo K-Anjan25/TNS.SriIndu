@@ -3,8 +3,6 @@ package com.tnsif.java.day15;
 
 public class TestLogger {
 
-    
-    
     public class Logger{
     @SuppressWarnings("unused")
     public void log(String message) {
@@ -13,7 +11,7 @@ public class TestLogger {
     }
     }
     public static void main(String[] args) {
-        Logger logger = new Logger();
+        Logger logger = new Logger;
         logger.log("Hello, World!");
     }
 }
