@@ -5,17 +5,9 @@ import java.util.stream.*;
 
 public class StreamExample {
 public static void main(String[] args) {
-List<String> list = Arrays.asList("Apple"
-,
-"Banana"
-,
-"Cherry"
-,
+List<String> list = Arrays.asList("Apple","Banana","Cherry","Date");
 
-"Date");
-
-// Stream operation to filter and print items with length
-greater than 5
+// Stream operation to filter and print items with length greater than 5
 list.stream()
 .filter(item -> item.length() > 5)
 .forEach(System.out::println);
