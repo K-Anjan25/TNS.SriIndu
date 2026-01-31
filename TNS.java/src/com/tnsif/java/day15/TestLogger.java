@@ -3,6 +3,8 @@ package com.tnsif.java.day15;
 
 public class TestLogger {
 
+    
+    
     public class Logger{
     @SuppressWarnings("unused")
     public void log(String message) {
